@@ -2,10 +2,13 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from pycaret.regression import load_model, predict_model
+import os
+import pathlib
+folder_aplikacji = pathlib.Path(__file__).parent.resolve()
 
 # 1. Konfiguracja i Ładowanie zasobów
 st.set_page_config(page_title="Gejzer Szczęścia by VolandJ", layout="wide")
-model = load_model('moj_finalny_model_szczescia')
+model = load_model(os.path.join(folder_aplikacji, 'moj_finalny_model_szczescia2'))
 df_hist = pd.read_csv('world-happiness-report1.csv')
 
 # 2. Opis aplikacji na panelu bocznym
