@@ -1,4 +1,5 @@
 streamlit
 pandas
-pycaret[full]
+pycaret
 scikit-learn
+lightgbm
