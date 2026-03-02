@@ -1,5 +1,3 @@
+pycaret[full]
 streamlit
 pandas
-pycaret==3.3.2
-scikit-learn==1.4.2
-lightgbm==3.3.5
