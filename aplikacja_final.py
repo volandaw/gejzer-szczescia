@@ -88,6 +88,10 @@ if wybrane_kraje:
                       template="plotly_white")
         st.plotly_chart(fig, use_container_width=True)
 
+st.divider() # To wstawi estetyczną poziomą linię oddzielającą
+st.markdown("### Przeczytaj moją analizę w Bank.pl")
+st.write("[Paradoks szczęścia w cieniu mocarstw – pełny artykuł tutaj](https://bank.pl)")
+
 # 6. Stopka autorska
 st.markdown("---")
 st.markdown(
@@ -100,7 +104,5 @@ st.markdown(
     """, 
     unsafe_allow_html=True
 )
-st.divider() # To wstawi estetyczną poziomą linię oddzielającą
-st.markdown("### Przeczytaj moją analizę w Bank.pl")
-st.write("[Paradoks szczęścia w cieniu mocarstw – pełny artykuł tutaj](https://bank.pl)")
+
 
