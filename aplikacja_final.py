@@ -100,4 +100,7 @@ st.markdown(
     """, 
     unsafe_allow_html=True
 )
+st.divider() # To wstawi estetyczną poziomą linię oddzielającą
+st.markdown("### Przeczytaj moją analizę w Bank.pl")
+st.write("[Paradoks szczęścia w cieniu mocarstw – pełny artykuł tutaj](https://bank.pl)")
 
