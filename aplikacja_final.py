@@ -38,7 +38,7 @@ wszystkie_kraje = sorted(df_hist['Country name'].unique())
 wybrane_kraje = st.multiselect(
     "Wybierz kraje do analizy porównawczej:", 
     options=wszystkie_kraje, 
-    default=['Poland', 'Switzerland']
+    default=['Poland', 'Switzerland', 'Russia', 'China', United States']
 )
 
 # 4. Dynamiczne suwaki i zbieranie parametrów
