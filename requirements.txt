@@ -1,9 +1,6 @@
 streamlit
 pandas==1.5.3
+pycaret==3.3.2
 setuptools>=65.0.0
 wheel
-pycaret==3.3.2
 numpy<2.0
-scikit-learn
-xgboost
-lightgbm
