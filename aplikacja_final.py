@@ -89,8 +89,11 @@ if wybrane_kraje:
         st.plotly_chart(fig, use_container_width=True)
 
 st.divider() # To wstawi estetyczną poziomą linię oddzielającą
-st.markdown("### Przeczytaj moją analizę w Bank.pl")
-st.write("[Paradoks szczęścia w cieniu mocarstw – pełny artykuł tutaj](https://bank.pl)")
+st.markdown("""
+    Dowiedz się więcej o meandrach szczęścia narodów w artykule: 
+    [Paradoks szczęścia w cieniu mocarstw](https://bank.pl/paradoks-szczescia-w-cieniu-mocarstw-czego-o-polsce-i-miedzymorzu-nie-mowi-nam-sam-pkb/) 
+    opublikowanym w Miesięczniku BANK.
+""")
 
 # 6. Stopka autorska
 st.markdown("---")
