@@ -1,6 +1,7 @@
 streamlit
 pandas==1.5.3
 pycaret==3.3.2
+setuptools
 numpy<2.0
 scikit-learn
 xgboost
