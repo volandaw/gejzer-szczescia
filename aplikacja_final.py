@@ -33,7 +33,7 @@ st.sidebar.info(
 )
 
 # 3. Wybór krajów
-st.title("📈 Panel Symulacji Szczęścia Narodu")
+st.title("📈 Panel Symulacji Szczęścia Narodów")
 wszystkie_kraje = sorted(df_hist['Country name'].unique())
 wybrane_kraje = st.multiselect(
     "Wybierz kraje do analizy porównawczej:", 
