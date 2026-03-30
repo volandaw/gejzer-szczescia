@@ -16,7 +16,7 @@ folder_aplikacji = pathlib.Path(__file__).parent.resolve()
 # 1. Konfiguracja i Ładowanie zasobów
 st.set_page_config(page_title="Gejzer Szczęścia by VolandJ", layout="wide")
 model = load_model('moj_finalny_model_szczescia2')
-df_hist = pd.read_csv('world-happiness-report1.csv')
+df_hist = pd.read_csv('world-happiness-report1.csv', encoding='utf-8-sig')
 
 # 2. Opis aplikacji na panelu bocznym
 st.sidebar.title("🚀 O aplikacji")
@@ -107,5 +107,3 @@ st.markdown(
     """, 
     unsafe_allow_html=True
 )
-
-
